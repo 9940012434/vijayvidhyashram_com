@@ -47,7 +47,7 @@
         </div>
 
 
-        </div>
+
     </section>
     <!--End Sponsors Section-->
     <!-- About Section Four -->
@@ -67,7 +67,7 @@
             <div class="row clearfix">
                 <div class="services-block-three style-two col-lg-6 col-md-12 col-sm-12">
                     <div class="inner-box wow fadeIn" data-wow-delay="600ms" data-wow-duration="1500ms" style="padding: 0">
-                        <div class="contact-form">
+                        <%--<div class="contact-form">
                             <div class="row">
                                 <div class="col-lg-12">
                                     <br>
@@ -79,25 +79,25 @@
                                 <div class="col-lg-6 col-sm-12">
                                     <fieldset>
                                         <asp:TextBox ID="txtChildname" placeholder="Child Name" maxLengh="100" runat="server"></asp:TextBox>
-                                        <%--<input name="childname" type="text" id="childname" placeholder="Child Name" maxlength="100" required="" autocomplete="off">--%>
+
                                     </fieldset>
                                 </div>
                                 <div class="col-lg-6 col-sm-12">
                                     <fieldset>
                                         <asp:TextBox ID="txtFathername" placeholder="Father Name" maxLengh="100" runat="server"></asp:TextBox>
-                                        <%--<input name="fathername" type="text" id="fathername" placeholder="Father Name" maxlength="100" required="" autocomplete="off">--%>
+
                                     </fieldset>
                                 </div>
                                 <div class="col-lg-6 col-sm-12">
                                     <fieldset>
                                         <asp:TextBox ID="txtMthername" placeholder="Mother Name" maxLengh="100" runat="server"></asp:TextBox>
-                                        <%--<input name="mothername" type="text" id="mothername" placeholder="Mother Name" maxlength="100" required="" autocomplete="off">--%>
+
                                     </fieldset>
                                 </div>
                                 <div class="col-lg-6 col-sm-12">
                                     <fieldset>
                                         <asp:TextBox ID="txtEmail" placeholder="Email Address" MaxLength="100" runat="server"></asp:TextBox>
-                                        <%--<input name="email" type="email" id="email" placeholder="Your Email Address" maxlength="250" required="" autocomplete="off">--%>
+
                                     </fieldset>
                                 </div>
                                 <div class="col-lg-6 col-sm-12">
@@ -109,20 +109,20 @@
 
                                     <fieldset>
                                         <asp:TextBox ID="txtAddress" placeholder="Address" TextMode="MultiLine" runat="server"></asp:TextBox>
-                                        <%--<input name="adress" type="text" id="address" placeholder="Address" required="" autocomplete="off">--%>
+
                                     </fieldset>
                                 </div>
 
                                 <div class="col-lg-6">
-                                    <%--<label style="color: #fff; font-size: 21px;">Date Of Birth</label>--%>
+
                                     <div id="filterDate2">
                                         <asp:TextBox ID="txtDOB" placeholder="Date of Birth (DD-MM-YYYY)" runat="server"></asp:TextBox>
-                                        <%--<input name="dob" id="dob" type="date" class="form-control" placeholder="Date of Birth" required autocomplete="off">--%>
+
                                     </div>
                                 </div>
 
                                 <div class="col-md-6 col-sm-12">
-                                    <%--<label style="color: #000; font-size: 21px;">Class</label>--%>
+
                                     <fieldset>
                                         <asp:DropDownList ID="class" runat="server">
                                             <asp:ListItem Value="">Select Admission Grade</asp:ListItem>
@@ -145,28 +145,28 @@
                                     </fieldset>
                                 </div>
                                 <div class="col-md-6 col-sm-12">
-    <%--<label style="color: #000; font-size: 21px;">Class</label>--%>
-    <fieldset>
-        <asp:DropDownList ID="SiblingGrade" runat="server">
-            <asp:ListItem Value="">Select Sibling Admission Grade</asp:ListItem>
-            <asp:ListItem Value="pre KG">PRE KG</asp:ListItem>
-            <asp:ListItem Value="LKG">LKG</asp:ListItem>
-            <asp:ListItem Value="UKG">UKG</asp:ListItem>
-            <asp:ListItem Value="I">I</asp:ListItem>
-            <asp:ListItem Value="II">II</asp:ListItem>
-            <asp:ListItem Value="III">III</asp:ListItem>
-            <asp:ListItem Value="IV">IV</asp:ListItem>
-            <asp:ListItem Value="V">V</asp:ListItem>
-            <asp:ListItem Value="VI">VI</asp:ListItem>
-            <asp:ListItem Value="VII">VII</asp:ListItem>
-            <asp:ListItem Value="VIII">VIII</asp:ListItem>
-            <asp:ListItem Value="IX">IX</asp:ListItem>
-            <asp:ListItem Value="X">X</asp:ListItem>
-            <asp:ListItem Value="XI">XI</asp:ListItem>
-            <asp:ListItem Value="XII">XII</asp:ListItem>
-        </asp:DropDownList>
-    </fieldset>
-</div>
+
+                                    <fieldset>
+                                        <asp:DropDownList ID="SiblingGrade" runat="server">
+                                            <asp:ListItem Value="">Select Sibling Admission Grade</asp:ListItem>
+                                            <asp:ListItem Value="pre KG">PRE KG</asp:ListItem>
+                                            <asp:ListItem Value="LKG">LKG</asp:ListItem>
+                                            <asp:ListItem Value="UKG">UKG</asp:ListItem>
+                                            <asp:ListItem Value="I">I</asp:ListItem>
+                                            <asp:ListItem Value="II">II</asp:ListItem>
+                                            <asp:ListItem Value="III">III</asp:ListItem>
+                                            <asp:ListItem Value="IV">IV</asp:ListItem>
+                                            <asp:ListItem Value="V">V</asp:ListItem>
+                                            <asp:ListItem Value="VI">VI</asp:ListItem>
+                                            <asp:ListItem Value="VII">VII</asp:ListItem>
+                                            <asp:ListItem Value="VIII">VIII</asp:ListItem>
+                                            <asp:ListItem Value="IX">IX</asp:ListItem>
+                                            <asp:ListItem Value="X">X</asp:ListItem>
+                                            <asp:ListItem Value="XI">XI</asp:ListItem>
+                                            <asp:ListItem Value="XII">XII</asp:ListItem>
+                                        </asp:DropDownList>
+                                    </fieldset>
+                                </div>
                                 <div class="col-lg-12">
                                     <fieldset style="margin-top: 5px;">
                                         <asp:TextBox ID="txtMessage" placeholder="Message" TextMode="MultiLine" runat="server"></asp:TextBox>
@@ -174,6 +174,7 @@
                                 </div>
                                 <div class="col-lg-12">
                                     <fieldset>
+                                        <asp:Button ID="Button1" runat="server" Text="Button" />
                                         <button type="submit" id="btnsubmit" name="btnsubmit" class="main-button-icon">Submit</button>
                                     </fieldset>
                                     <center>
@@ -183,7 +184,107 @@
                                     </center>
                                 </div>
                             </div>
-                        </div>
+                        </div>--%>
+                         <div class="contact-form">
+            <h2>Student Admission Form</h2>
+            
+            <div class="form-group">
+                <label>Child Name:</label>
+                <asp:TextBox ID="txtChildName" runat="server" CssClass="form-control" required></asp:TextBox>
+            </div>
+
+            <div class="form-group">
+                <label>Father Name:</label>
+                <asp:TextBox ID="txtFatherName" runat="server" CssClass="form-control" required></asp:TextBox>
+            </div>
+
+            <div class="form-group">
+                <label>Mother Name:</label>
+                <asp:TextBox ID="txtMotherName" runat="server" CssClass="form-control" required></asp:TextBox>
+            </div>
+
+            <div class="form-group">
+                <label>Email Address:</label>
+                <asp:TextBox ID="txtEmail" runat="server" CssClass="form-control" required TextMode="Email"></asp:TextBox>
+            </div>
+
+            <div class="form-group">
+                <label>Phone Number:</label>
+                <asp:TextBox ID="txtPhone" runat="server" CssClass="form-control" required TextMode="Phone"></asp:TextBox>
+            </div>
+
+            <div class="form-group">
+                <label>Address:</label>
+                <asp:TextBox ID="txtAddress" runat="server" CssClass="form-control" required TextMode="MultiLine"></asp:TextBox>
+            </div>
+
+            <div class="form-group">
+                <label>Date of Birth (DD-MM-YYYY):</label>
+                <asp:TextBox ID="txtDOB" runat="server" CssClass="form-control" required TextMode="Date"></asp:TextBox>
+            </div>
+
+            <div class="form-group">
+                <label>Select Admission Grade:</label>
+                <%--<asp:DropDownList ID="ddlGrade" runat="server" CssClass="form-control">
+                    <asp:ListItem Text="Select Grade" Value="" />
+                    <asp:ListItem Text="Nursery" Value="Nursery" />
+                    <asp:ListItem Text="KG" Value="KG" />
+                    <asp:ListItem Text="1st Grade" Value="1st Grade" />
+                    <asp:ListItem Text="2nd Grade" Value="2nd Grade" />
+                </asp:DropDownList>--%>
+                <asp:DropDownList ID="ddlGrade" runat="server">
+    <asp:ListItem Value="">Select Admission Grade</asp:ListItem>
+    <asp:ListItem Value="pre KG">PRE KG</asp:ListItem>
+    <asp:ListItem Value="LKG">LKG</asp:ListItem>
+    <asp:ListItem Value="UKG">UKG</asp:ListItem>
+    <asp:ListItem Value="I">I</asp:ListItem>
+    <asp:ListItem Value="II">II</asp:ListItem>
+    <asp:ListItem Value="III">III</asp:ListItem>
+    <asp:ListItem Value="IV">IV</asp:ListItem>
+    <asp:ListItem Value="V">V</asp:ListItem>
+    <asp:ListItem Value="VI">VI</asp:ListItem>
+    <asp:ListItem Value="VII">VII</asp:ListItem>
+    <asp:ListItem Value="VIII">VIII</asp:ListItem>
+    <asp:ListItem Value="IX">IX</asp:ListItem>
+    <asp:ListItem Value="X">X</asp:ListItem>
+    <asp:ListItem Value="XI">XI</asp:ListItem>
+    <asp:ListItem Value="XII">XII</asp:ListItem>
+</asp:DropDownList>
+            </div>
+
+            <div class="form-group">
+                <label>Select Sibling Admission Grade:</label>
+                <%--<asp:DropDownList ID="ddlSiblingGrade" runat="server" CssClass="form-control">
+                    <asp:ListItem Text="Select Grade" Value="" />
+                    <asp:ListItem Text="Nursery" Value="Nursery" />
+                    <asp:ListItem Text="KG" Value="KG" />
+                    <asp:ListItem Text="1st Grade" Value="1st Grade" />
+                    <asp:ListItem Text="2nd Grade" Value="2nd Grade" />
+                </asp:DropDownList>--%>
+                                <asp:DropDownList ID="ddlSiblingGrade" runat="server">
+    <asp:ListItem Value="">Select Admission Grade</asp:ListItem>
+    <asp:ListItem Value="pre KG">PRE KG</asp:ListItem>
+    <asp:ListItem Value="LKG">LKG</asp:ListItem>
+    <asp:ListItem Value="UKG">UKG</asp:ListItem>
+    <asp:ListItem Value="I">I</asp:ListItem>
+    <asp:ListItem Value="II">II</asp:ListItem>
+    <asp:ListItem Value="III">III</asp:ListItem>
+    <asp:ListItem Value="IV">IV</asp:ListItem>
+    <asp:ListItem Value="V">V</asp:ListItem>
+    <asp:ListItem Value="VI">VI</asp:ListItem>
+    <asp:ListItem Value="VII">VII</asp:ListItem>
+    <asp:ListItem Value="VIII">VIII</asp:ListItem>
+    <asp:ListItem Value="IX">IX</asp:ListItem>
+    <asp:ListItem Value="X">X</asp:ListItem>
+    <asp:ListItem Value="XI">XI</asp:ListItem>
+    <asp:ListItem Value="XII">XII</asp:ListItem>
+</asp:DropDownList>
+            </div>
+
+            <div class="form-group">
+                <asp:Button ID="btnSubmit" runat="server" Text="Submit" CssClass="btn-submit" OnClick="btnSubmit_Click" />
+            </div>
+        </div>
                     </div>
                 </div>
                 <div class="services-block-three style-two col-lg-6 col-md-6 col-sm-12">
